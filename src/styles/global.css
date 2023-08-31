@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background: var(--BgMain);
+  font-family: "Unbounded", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Unbounded", sans-serif;
+  --Main: #E5E8DF;
+  --Secondary: #737373;
+  --AccentGreen: #8DC22D;
+  --AccentYellow: #E8CB3C;
+  --AccentRed: #E10E1A;
+  --BgMain: #211E1E;
+  --BgGR: #353A36;
+  --BgTool: #272726;
+  --CardsMain: #272726;
+  --CardsHover: #31312F;
+  --ButtonsHover: #6DC300;
+  --ButtonsPressed: #56C300;
+  --Borders: #42423F;
+}
+
+.HeaderL {
+  font-family: "Unbounded", sans-serif;
+  font-size: 58px;
+  line-height: 72px;
+}
+.HeaderM {
+  font-family: "Unbounded", sans-serif;
+  font-size: 42px;
+  line-height: 52px;
+}
+.HeaderS {
+  font-family: "Unbounded", sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+}
+.TitleL {
+  font-family: "Unbounded", sans-serif;
+  font-size: 26px;
+  line-height: 32px;
+}
+.TitleM {
+  font-family: "Unbounded", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+.TitleS {
+  font-family: "Unbounded", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.TextL {
+  font-family: "Unbounded", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+.TextMReg {
+  font-family: "Unbounded", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.TextMLig {
+  font-family: "Unbounded", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.TextS {
+  font-family: "Unbounded", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.TextXS {
+  font-family: "Unbounded", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+}
+

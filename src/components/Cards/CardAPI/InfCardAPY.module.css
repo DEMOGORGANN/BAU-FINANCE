@@ -1,0 +1,32 @@
+.InfCard {
+  background-color: var(--BgGR);
+  border-radius: 25px;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--Main);
+  display: flex;
+}
+.InfCard .APY {
+  margin: 37px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.InfCard .APY .information {
+  display: grid;
+  margin-top: 16px;
+  grid-template-columns: auto auto auto auto auto 107px;
+  gap: 19px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--Secondary);
+}
+.InfCard .APY .information span {
+  margin-left: 12px;
+  font-weight: 400;
+  color: var(--Main);
+}
+.InfCard .APY .information .bord {
+  border-left: 2px solid var(--Secondary);
+  height: 20px;
+}/*# sourceMappingURL=InfCardAPY.module.css.map */

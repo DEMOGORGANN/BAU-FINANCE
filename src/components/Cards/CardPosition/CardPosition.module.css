@@ -1,0 +1,28 @@
+.CardPosition {
+  background-color: var(--BgGR);
+  border-radius: 24px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 40px;
+  color: var(--Secondary);
+}
+.CardPosition .OneInf {
+  display: grid;
+  grid-template-columns: 372px 166px 157px 74px;
+  gap: 16px;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.CardPosition .OneInf :last-child {
+  -moz-text-align-last: end;
+       text-align-last: end;
+}
+.CardPosition .white {
+  color: var(--Main);
+}
+.CardPosition .title {
+  font-weight: 400;
+  font-size: 20px;
+}/*# sourceMappingURL=CardPosition.module.css.map */

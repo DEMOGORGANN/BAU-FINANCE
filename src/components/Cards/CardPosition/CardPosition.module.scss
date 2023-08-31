@@ -1,0 +1,26 @@
+.CardPosition {
+  background-color: var(--BgGR);
+  border-radius: 24px;
+  width: max-content;
+  padding: 40px;
+  color: var(--Secondary);
+  .OneInf {
+    display: grid;
+    grid-template-columns: 372px 166px 157px 74px;
+    gap: 16px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    :last-child {
+      text-align-last: end;
+    }
+  }
+  .white {
+    color: var(--Main);
+  }
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}

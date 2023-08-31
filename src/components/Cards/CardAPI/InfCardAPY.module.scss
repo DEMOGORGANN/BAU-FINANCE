@@ -1,0 +1,31 @@
+.InfCard {
+  background-color: var(--BgGR);
+  border-radius: 25px;
+  width: max-content;
+  color: var(--Main);
+  display: flex;
+  .APY {
+    margin: 37px;
+    font-size: 28px;
+    line-height: 36px;
+    .information {
+      display: grid;
+      margin-top: 16px;
+      grid-template-columns: auto auto auto auto auto 107px;
+      gap: 19px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 300;
+      color: var(--Secondary);
+      span {
+        margin-left: 12px;
+        font-weight: 400;
+        color: var(--Main);
+      }
+      .bord {
+        border-left: 2px solid var(--Secondary);
+        height: 20px;
+      }
+    }
+  }
+}
